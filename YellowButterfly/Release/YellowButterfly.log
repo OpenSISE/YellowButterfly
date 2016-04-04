@@ -1,0 +1,266 @@
+﻿生成启动时间为 2016/3/24 0:09:43。
+     1>项目“H:\c++code\baodian\YellowButterfly\YellowButterfly\YellowButterfly.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\YellowButterfly.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\YellowButterfly.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EXIT.cpp md5.cpp ShowTip.cpp Thanks.cpp UdpClient.cpp Usage.cpp UserSetting.cpp YellowButterfly.cpp YellowButterflyDlg.cpp
+         EXIT.cpp
+     1>EXIT.cpp(44): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>EXIT.cpp(56): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [21]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         md5.cpp
+         ShowTip.cpp
+     1>ShowTip.cpp(34): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+         Thanks.cpp
+     1>Thanks.cpp(43): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Thanks.cpp(48): error C2664: “void CThanks::OpenUrl(CString)”: 无法将参数 1 从“const char [42]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>Thanks.cpp(54): error C2664: “void CThanks::OpenUrl(CString)”: 无法将参数 1 从“const char [28]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>Thanks.cpp(60): error C2664: “void CThanks::OpenUrl(CString)”: 无法将参数 1 从“const char [31]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>Thanks.cpp(66): error C2664: “void CThanks::OpenUrl(CString)”: 无法将参数 1 从“const char [57]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+         UdpClient.cpp
+     1>UdpClient.cpp(87): error C2664: “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CStringT(const char *,int,ATL::IAtlStringMgr *)”: 无法将参数 1 从“const char [8]”转换为“const VARIANT &”
+                 原因如下:  无法从“const char [8]”转换为“const VARIANT”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>UdpClient.cpp(88): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(100): error C2664: “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CStringT(const char *,int,ATL::IAtlStringMgr *)”: 无法将参数 1 从“const char [8]”转换为“const VARIANT &”
+                 原因如下:  无法从“const char [8]”转换为“const VARIANT”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>UdpClient.cpp(101): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(111): error C2664: “int sendto(SOCKET,const char *,int,int,const sockaddr *,int)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(121): error C2664: “int sendto(SOCKET,const char *,int,int,const sockaddr *,int)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(232): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(290): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(298): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UdpClient.cpp(324): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         Usage.cpp
+     1>Usage.cpp(43): error C2440: “初始化”: 无法从“const char [730]”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>Usage.cpp(44): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+         UserSetting.cpp
+     1>h:\c++code\baodian\yellowbutterfly\yellowbutterfly\UserSetting.h(5): error C2440: “默认参数”: 无法从“const char [1]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>h:\c++code\baodian\yellowbutterfly\yellowbutterfly\UserSetting.h(5): error C2440: “默认参数”: 无法从“const char [13]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>UserSetting.cpp(41): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CompareNoCase(const wchar_t *) const”: 无法将参数 1 从“const char [7]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(46): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(49): error C2593: “operator +=”不明确
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1388): 可能是“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(const VARIANT &)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1380): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(char)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1373): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(unsigned char)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1361): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(wchar_t)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1353): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(const char *)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1338): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(const wchar_t *)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1324): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator +=(const ATL::CSimpleStringT<wchar_t,true> &)”
+                 尝试匹配参数列表“(CString, _bstr_t)”时
+     1>UserSetting.cpp(77): error C2664: “DWORD GetModuleFileNameW(HMODULE,LPWSTR,DWORD)”: 无法将参数 2 从“char [64]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(80): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Replace(const wchar_t *,const wchar_t *)”: 无法将参数 1 从“const char [2]”转换为“wchar_t”
+                 没有使该转换得以执行的上下文
+     1>UserSetting.cpp(87): error C2664: “BOOL WritePrivateProfileSectionW(LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(124): error C2593: “operator =”不明确
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1322): 可能是“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(const VARIANT &)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1314): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(char)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1305): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(wchar_t)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1299): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(const unsigned char *)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1281): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(const char *)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1273): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(const wchar_t *)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\cstringt.h(1258): 或       “ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::operator =(const ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>> &)”
+                 尝试匹配参数列表“(CString, _bstr_t)”时
+     1>UserSetting.cpp(133): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(135): error C2664: “int CComboBox::InsertString(int,LPCTSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(136): error C2664: “int CComboBox::InsertString(int,LPCTSTR)”: 无法将参数 2 从“const char [6]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(144): error C2664: “int CComboBox::InsertString(int,LPCTSTR)”: 无法将参数 2 从“char [132]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(149): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(157): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CompareNoCase(const wchar_t *) const”: 无法将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(161): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(164): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(175): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(181): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(191): error C2660: “CreateDefaultIni”: 函数不接受 1 个参数
+     1>UserSetting.cpp(194): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [19]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(204): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(206): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [9]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>UserSetting.cpp(207): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>UserSetting.cpp(211): error C2664: “BOOL WritePrivateProfileSectionW(LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(213): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 1 从“const char [11]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(242): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [7]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>UserSetting.cpp(242): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [9]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>UserSetting.cpp(243): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [11]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>UserSetting.cpp(245): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [9]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>UserSetting.cpp(249): error C2664: “BOOL WritePrivateProfileSectionW(LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(260): error C2664: “DWORD GetPrivateProfileSectionW(LPCWSTR,LPWSTR,DWORD,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(267): warning C4018: “<”: 有符号/无符号不匹配
+     1>UserSetting.cpp(284): error C2664: “int strcmp(const char *,const char *)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>UserSetting.cpp(285): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         YellowButterfly.cpp
+     1>YellowButterfly.cpp(18): error C2440: “初始化”: 无法从“const char [1]”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterfly.cpp(62): error C2664: “BOOL GetClassInfoW(HINSTANCE,LPCWSTR,LPWNDCLASSW)”: 无法将参数 2 从“const char [7]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterfly.cpp(63): error C2440: “=”: 无法从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         YellowButterflyDlg.cpp
+     1>h:\c++code\baodian\yellowbutterfly\yellowbutterfly\UserSetting.h(5): error C2440: “默认参数”: 无法从“const char [1]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>h:\c++code\baodian\yellowbutterfly\yellowbutterfly\UserSetting.h(5): error C2440: “默认参数”: 无法从“const char [13]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterflyDlg.cpp(120): error C2664: “int SkinH_AttachEx(LPCTSTR,LPCTSTR)”: 无法将参数 1 从“const char [10]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(229): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(230): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(246): error C2664: “BOOL CStatusBar::SetPaneText(int,LPCTSTR,BOOL)”: 无法将参数 2 从“LPSTR”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(256): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [19])”时
+     1>YellowButterflyDlg.cpp(270): error C2664: “void CWnd::SetWindowTextW(LPCTSTR)”: 无法将参数 1 从“const char [5]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(275): error C2664: “void UdpClient::SendLoginPack(UCHAR [],char [],char [],char [],char [],unsigned char,char [])”: 无法将参数 2 从“wchar_t *”转换为“char []”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(278): error C2664: “BOOL CStatusBar::SetPaneText(int,LPCTSTR,BOOL)”: 无法将参数 2 从“const char [13]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(294): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [9]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterflyDlg.cpp(295): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [11]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterflyDlg.cpp(298): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [7]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterflyDlg.cpp(299): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CompareNoCase(const wchar_t *) const”: 无法将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(304): error C2664: “CString LoadIni(CString,CString)”: 无法将参数 1 从“const char [7]”转换为“CString”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterflyDlg.cpp(316): error C2664: “void CWnd::SetWindowTextW(LPCTSTR)”: 无法将参数 1 从“const char [5]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(321): error C2664: “BOOL CStatusBar::SetPaneText(int,LPCTSTR,BOOL)”: 无法将参数 2 从“const char [13]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(336): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(337): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(362): error C2664: “DWORD GetPrivateProfileSectionW(LPCWSTR,LPWSTR,DWORD,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(369): warning C4018: “<”: 有符号/无符号不匹配
+     1>YellowButterflyDlg.cpp(386): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(388): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(393): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(398): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CompareNoCase(const wchar_t *) const”: 无法将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(401): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CompareNoCase(const wchar_t *) const”: 无法将参数 1 从“const char [4]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(409): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::CompareNoCase(const wchar_t *) const”: 无法将参数 1 从“const char [4]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(425): error C2660: “CreateDefaultIni”: 函数不接受 1 个参数
+     1>YellowButterflyDlg.cpp(441): error C2440: “初始化”: 无法从“const char [12]”转换为“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”
+                 class“ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”的构造函数声明为“explicit”
+     1>YellowButterflyDlg.cpp(442): error C2440: “类型转换”: 无法从“CString”转换为“LPCSTR”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>YellowButterflyDlg.cpp(442): error C2660: “lstrcpynW”: 函数不接受 2 个参数
+     1>YellowButterflyDlg.cpp(463): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 2 从“const char [10]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(471): error C2664: “int CWnd::MessageBoxW(LPCTSTR,LPCTSTR,UINT)”: 无法将参数 2 从“const char [10]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(524): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [36])”时
+     1>YellowButterflyDlg.cpp(576): error C2664: “int send(SOCKET,const char *,int,int)”: 无法将参数 2 从“wchar_t *”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(582): error C2664: “int ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Find(const wchar_t *,int) throw() const”: 无法将参数 1 从“const char [2]”转换为“wchar_t”
+                 没有使该转换得以执行的上下文
+     1>YellowButterflyDlg.cpp(585): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>YellowButterflyDlg.cpp(599): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [40]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(625): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [27]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(636): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [23]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(637): error C2664: “HWND FindWindowW(LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(697): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(701): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(713): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(717): error C2664: “BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(728): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(734): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(741): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [20])”时
+     1>YellowButterflyDlg.cpp(756): error C2039: “GetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(757): error C2664: “int atoi(const char *)”: 无法将参数 1 从“CString”转换为“const char *”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>YellowButterflyDlg.cpp(763): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [23])”时
+     1>YellowButterflyDlg.cpp(772): error C2664: “void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)”: 无法将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>YellowButterflyDlg.cpp(779): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>YellowButterflyDlg.cpp(785): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6498): 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(6496): 或       “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 尝试匹配参数列表“(const char [19])”时
+     1>YellowButterflyDlg.cpp(787): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 E:\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxwin.h(2165) : 参见“CWnd”的声明
+     1>已完成生成项目“H:\c++code\baodian\YellowButterfly\YellowButterfly\YellowButterfly.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.92
