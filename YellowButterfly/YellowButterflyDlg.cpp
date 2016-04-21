@@ -637,6 +637,7 @@ DWORD WINAPI ListenBasThread(LPVOID pParam)
 	Client->~UdpClient();
 	::closesocket(ClientSocket);
 	::closesocket(InfoSocket);
+	delete Client;
 	return 0;
 }
 
